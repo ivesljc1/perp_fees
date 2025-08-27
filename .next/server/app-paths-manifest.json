@@ -1,0 +1,4 @@
+{
+  "/page": "app/page.js",
+  "/api/update-dataset/route": "app/api/update-dataset/route.js"
+}

@@ -1,0 +1,590 @@
+{
+  "exchanges": [
+    {
+      "exchange": "Hyperliquid",
+      "type": "DEX",
+      "product": "perp",
+      "day_basis": 14,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 1.5
+        },
+        {
+          "volume": 5,
+          "fee": 1.2
+        },
+        {
+          "volume": 25,
+          "fee": 0.8
+        },
+        {
+          "volume": 100,
+          "fee": 0.4
+        },
+        {
+          "volume": 500,
+          "fee": 0
+        },
+        {
+          "volume": 2000,
+          "fee": 0
+        },
+        {
+          "volume": 7000,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 4.5
+        },
+        {
+          "volume": 5,
+          "fee": 4
+        },
+        {
+          "volume": 25,
+          "fee": 3.5
+        },
+        {
+          "volume": 100,
+          "fee": 3
+        },
+        {
+          "volume": 500,
+          "fee": 2.8
+        },
+        {
+          "volume": 2000,
+          "fee": 2.6
+        },
+        {
+          "volume": 7000,
+          "fee": 2.4
+        }
+      ]
+    },
+    {
+      "exchange": "Nado",
+      "type": "Nado",
+      "product": "perp",
+      "day_basis": 14,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 1.2
+        },
+        {
+          "volume": 8,
+          "fee": 1
+        },
+        {
+          "volume": 25,
+          "fee": 0.6
+        },
+        {
+          "volume": 100,
+          "fee": 0.2
+        },
+        {
+          "volume": 500,
+          "fee": 0
+        },
+        {
+          "volume": 2000,
+          "fee": 0
+        },
+        {
+          "volume": 7000,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 4
+        },
+        {
+          "volume": 8,
+          "fee": 3.8
+        },
+        {
+          "volume": 25,
+          "fee": 3.3
+        },
+        {
+          "volume": 100,
+          "fee": 2.8
+        },
+        {
+          "volume": 500,
+          "fee": 2.6
+        },
+        {
+          "volume": 2000,
+          "fee": 2.4
+        },
+        {
+          "volume": 7000,
+          "fee": 2.2
+        }
+      ]
+    },
+    {
+      "exchange": "Bybit",
+      "type": "CEX",
+      "product": "perp",
+      "day_basis": 30,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 2
+        },
+        {
+          "volume": 10,
+          "fee": 1.8
+        },
+        {
+          "volume": 25,
+          "fee": 1.6
+        },
+        {
+          "volume": 50,
+          "fee": 1.4
+        },
+        {
+          "volume": 100,
+          "fee": 1.2
+        },
+        {
+          "volume": 250,
+          "fee": 1
+        },
+        {
+          "volume": 500,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 5.5
+        },
+        {
+          "volume": 10,
+          "fee": 4
+        },
+        {
+          "volume": 25,
+          "fee": 3.75
+        },
+        {
+          "volume": 50,
+          "fee": 3.5
+        },
+        {
+          "volume": 100,
+          "fee": 3.2
+        },
+        {
+          "volume": 250,
+          "fee": 3.2
+        },
+        {
+          "volume": 500,
+          "fee": 3
+        }
+      ]
+    },
+    {
+      "exchange": "Binance",
+      "type": "CEX",
+      "product": "perp",
+      "day_basis": 30,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 2
+        },
+        {
+          "volume": 15,
+          "fee": 1.6
+        },
+        {
+          "volume": 50,
+          "fee": 1.4
+        },
+        {
+          "volume": 100,
+          "fee": 1.2
+        },
+        {
+          "volume": 600,
+          "fee": 1
+        },
+        {
+          "volume": 1000,
+          "fee": 0.8
+        },
+        {
+          "volume": 2500,
+          "fee": 0.6
+        },
+        {
+          "volume": 5000,
+          "fee": 0.4
+        },
+        {
+          "volume": 12500,
+          "fee": 0.2
+        },
+        {
+          "volume": 25000,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 5
+        },
+        {
+          "volume": 15,
+          "fee": 4
+        },
+        {
+          "volume": 50,
+          "fee": 3.5
+        },
+        {
+          "volume": 100,
+          "fee": 3.2
+        },
+        {
+          "volume": 600,
+          "fee": 3
+        },
+        {
+          "volume": 1000,
+          "fee": 2.7
+        },
+        {
+          "volume": 2500,
+          "fee": 2.5
+        },
+        {
+          "volume": 5000,
+          "fee": 2.2
+        },
+        {
+          "volume": 12500,
+          "fee": 2
+        },
+        {
+          "volume": 25000,
+          "fee": 1.7
+        }
+      ]
+    },
+    {
+      "exchange": "dYdX",
+      "type": "DEX",
+      "product": "perp",
+      "day_basis": 30,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 1
+        },
+        {
+          "volume": 1,
+          "fee": 1
+        },
+        {
+          "volume": 5,
+          "fee": 0.5
+        },
+        {
+          "volume": 25,
+          "fee": 0
+        },
+        {
+          "volume": 125,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 5
+        },
+        {
+          "volume": 1,
+          "fee": 4.5
+        },
+        {
+          "volume": 5,
+          "fee": 4
+        },
+        {
+          "volume": 25,
+          "fee": 3.5
+        },
+        {
+          "volume": 125,
+          "fee": 3
+        }
+      ]
+    },
+    {
+      "exchange": "Aster",
+      "type": "DEX",
+      "product": "perp",
+      "day_basis": 14,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 1
+        },
+        {
+          "volume": 5,
+          "fee": 0.8
+        },
+        {
+          "volume": 25,
+          "fee": 0.5
+        },
+        {
+          "volume": 100,
+          "fee": 0
+        },
+        {
+          "volume": 500,
+          "fee": 0
+        },
+        {
+          "volume": 1000,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 3.5
+        },
+        {
+          "volume": 5,
+          "fee": 3.4
+        },
+        {
+          "volume": 25,
+          "fee": 3.2
+        },
+        {
+          "volume": 100,
+          "fee": 3
+        },
+        {
+          "volume": 500,
+          "fee": 2.8
+        },
+        {
+          "volume": 1000,
+          "fee": 2.5
+        }
+      ]
+    },
+    {
+      "exchange": "EdgeX",
+      "type": "DEX",
+      "product": "perp",
+      "day_basis": 30,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 1.5
+        },
+        {
+          "volume": 5,
+          "fee": 1.3
+        },
+        {
+          "volume": 15,
+          "fee": 1.1
+        },
+        {
+          "volume": 45,
+          "fee": 0.8
+        },
+        {
+          "volume": 130,
+          "fee": 0.5
+        },
+        {
+          "volume": 400,
+          "fee": 0
+        },
+        {
+          "volume": 1000,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 3.8
+        },
+        {
+          "volume": 5,
+          "fee": 3.6
+        },
+        {
+          "volume": 15,
+          "fee": 3.4
+        },
+        {
+          "volume": 45,
+          "fee": 3.2
+        },
+        {
+          "volume": 130,
+          "fee": 2.8
+        },
+        {
+          "volume": 400,
+          "fee": 2.4
+        },
+        {
+          "volume": 1000,
+          "fee": 2
+        }
+      ]
+    },
+    {
+      "exchange": "Drift",
+      "type": "DEX",
+      "product": "perp",
+      "day_basis": 30,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": -0.25
+        },
+        {
+          "volume": 2,
+          "fee": -0.25
+        },
+        {
+          "volume": 10,
+          "fee": -0.25
+        },
+        {
+          "volume": 20,
+          "fee": -0.25
+        },
+        {
+          "volume": 80,
+          "fee": -0.25
+        },
+        {
+          "volume": 200,
+          "fee": -0.25
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 3.5
+        },
+        {
+          "volume": 2,
+          "fee": 3
+        },
+        {
+          "volume": 10,
+          "fee": 2.75
+        },
+        {
+          "volume": 20,
+          "fee": 2.5
+        },
+        {
+          "volume": 80,
+          "fee": 2.25
+        },
+        {
+          "volume": 200,
+          "fee": 2
+        }
+      ]
+    },
+    {
+      "exchange": "ApeX Protocol",
+      "type": "DEX",
+      "product": "perp",
+      "day_basis": 14,
+      "maker_fees": [
+        {
+          "volume": 0,
+          "fee": 2
+        },
+        {
+          "volume": 2.5,
+          "fee": 1.5
+        },
+        {
+          "volume": 12.5,
+          "fee": 1
+        },
+        {
+          "volume": 80,
+          "fee": 0.5
+        },
+        {
+          "volume": 400,
+          "fee": 0
+        },
+        {
+          "volume": 1500,
+          "fee": 0
+        },
+        {
+          "volume": 5000,
+          "fee": 0
+        }
+      ],
+      "taker_fees": [
+        {
+          "volume": 0,
+          "fee": 5
+        },
+        {
+          "volume": 2.5,
+          "fee": 4
+        },
+        {
+          "volume": 12.5,
+          "fee": 3.5
+        },
+        {
+          "volume": 80,
+          "fee": 3
+        },
+        {
+          "volume": 400,
+          "fee": 2.8
+        },
+        {
+          "volume": 1500,
+          "fee": 2.6
+        },
+        {
+          "volume": 5000,
+          "fee": 2.4
+        }
+      ]
+    }
+  ]
+}
