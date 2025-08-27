@@ -262,8 +262,6 @@ export default function FeeChart({
           margin={{ top: 20, right: 30, left: 30, bottom: 100 }}
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
-          // Ensure chart extends to full width
-          layout="horizontal"
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
           
@@ -279,8 +277,6 @@ export default function FeeChart({
             axisLine={false}
             tickLine={{ stroke: '#6b7280' }}
             type="number"
-            // Ensure axis extends to full width
-            allowDataOverflow={false}
             padding={{ left: 0, right: 0 }}
           />
           
@@ -350,8 +346,6 @@ export default function FeeChart({
               dot={<CustomDot />}
               connectNulls={true}
               isAnimationActive={false}
-              // Ensure lines extend to full width
-              allowDataOverflow={false}
             />
           ))}
           
